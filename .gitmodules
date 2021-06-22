@@ -7,3 +7,6 @@
 [submodule "qemu_mode/qemuafl"]
 	path = qemu_mode/qemuafl
 	url = https://github.com/AFLplusplus/qemuafl
+[submodule "cs_mode/proc-trace"]
+	path = cs_mode/proc-trace
+	url = git@github.com:RICSecLab/proc-trace.git
