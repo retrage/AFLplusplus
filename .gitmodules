@@ -7,9 +7,6 @@
 [submodule "qemu_mode/qemuafl"]
 	path = qemu_mode/qemuafl
 	url = https://github.com/AFLplusplus/qemuafl
-[submodule "cs_mode/glibc"]
-	path = cs_mode/glibc
-	url = https://sourceware.org/git/glibc.git
 [submodule "cs_mode/patchelf"]
 	path = cs_mode/patchelf
 	url = https://github.com/NixOS/patchelf.git
