@@ -1972,6 +1972,8 @@ int main(int argc, char **argv_orig, char **envp) {
   maybe_update_plot_file(afl, 0, 0, 0);
   save_auto(afl);
 
+  if (getenv("AFL_DRY_RUN")) { afl->stop_soon = 2; }
+
   if (afl->stop_soon) { goto stop_fuzzing; }
 
   /* Woop woop woop */
